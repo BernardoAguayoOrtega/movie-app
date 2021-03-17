@@ -1,6 +1,7 @@
 import React from 'react'
 import { render } from 'react-dom'
+import { App } from './components/App/index.jsx'
 
 const root = document.getElementById('root')
 
-render(<h2>Hello</h2>, root)
+render(<App />, root)
