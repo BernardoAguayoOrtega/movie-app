@@ -1,28 +1,31 @@
 {
-  "name": "movie-app",
-  "version": "1.0.0",
-  "description": "app that show movies created with react.js, babel. webpack, testing-library",
-  "main": "index.jsx",
-  "repository": "nope",
-  "author": "Bernardo Aguayo Ortega",
-  "license": "MIT",
-  "private": false,
-  "scripts": {
-    "start":"webpack-dev-server --mode development --open",
-    "build": "webpack --mode production"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.12.10",
-    "@babel/preset-env": "^7.12.11",
-    "@babel/preset-react": "^7.12.10",
-    "babel-loader": "^8.1.0",
-    "html-webpack-plugin": "^4.5.1",
-    "webpack": "4.44.2",
-    "webpack-cli": "^3.3.12",
-    "webpack-dev-server": "3.11.1"
-  },
-  "dependencies": {
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1"
-  }
+	"name": "movie-app",
+	"version": "1.0.0",
+	"description": "app that show movies created with react.js, babel. webpack, testing-library",
+	"main": "index.jsx",
+	"repository": "nope",
+	"author": "Bernardo Aguayo Ortega",
+	"license": "MIT",
+	"private": false,
+	"scripts": {
+		"start": "webpack-dev-server --mode development --open",
+		"build": "webpack --mode production",
+		"test": "jest"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.12.10",
+		"@babel/preset-env": "^7.12.11",
+		"@babel/preset-react": "^7.12.10",
+		"@testing-library/react": "^11.2.5",
+		"babel-loader": "^8.1.0",
+		"html-webpack-plugin": "^4.5.1",
+		"jest": "^26.6.3",
+		"webpack": "4.44.2",
+		"webpack-cli": "^3.3.12",
+		"webpack-dev-server": "3.11.1"
+	},
+	"dependencies": {
+		"react": "^17.0.1",
+		"react-dom": "^17.0.1"
+	}
 }
