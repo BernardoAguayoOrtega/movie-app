@@ -1,1 +1,3 @@
-export const List = () => <h1>movieList</h1>
+import {Card} from '../../components/Card/index.jsx'
+
+export const List = () => <Card />
